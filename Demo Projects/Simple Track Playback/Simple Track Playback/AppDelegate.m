@@ -16,6 +16,10 @@
 
 #import "AppDelegate.h"
 #import "Config.h"
+@import UIKit;
+//#import <Firebase/Firebase.h>
+@import Firebase;
+
 
 @interface AppDelegate ()
 @property (nonatomic, strong) SPTAuth *auth;
@@ -23,9 +27,12 @@
 @property (nonatomic, strong) UIViewController *authViewController;
 @end
 
+
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [FIRApp configure];
     // Set up shared authentication information
     SPTAuth *auth = [SPTAuth defaultInstance];
     auth.clientID = @kClientId;

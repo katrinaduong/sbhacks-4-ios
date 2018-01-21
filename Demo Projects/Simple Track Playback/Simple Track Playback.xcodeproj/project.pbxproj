@@ -19,9 +19,11 @@
 		37E2C9E418B4DF7D00D5D823 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E2C9E218B4DF7D00D5D823 /* Main_iPhone.storyboard */; };
 		37E2C9EA18B4DF7D00D5D823 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2C9E918B4DF7D00D5D823 /* ViewController.m */; };
 		37E2C9EC18B4DF7D00D5D823 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2C9EB18B4DF7D00D5D823 /* Images.xcassets */; };
+		4DF5941620147B150080D033 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5941520147B150080D033 /* GoogleService-Info.plist */; };
 		5457651D2013EDD8001EA129 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5457651A2013EDD8001EA129 /* SpotifyMetadata.framework */; };
 		5457651F2013EDD8001EA129 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5457651C2013EDD8001EA129 /* SpotifyAuthentication.framework */; };
 		5457652120142A00001EA129 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5457652020142A00001EA129 /* SystemConfiguration.framework */; };
+		79BFF47F3D80BE87220136EA /* Pods_Simple_Track_Playback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B197B549B829BCD32FF777 /* Pods_Simple_Track_Playback.framework */; };
 		999DC7101DAFD271005C0796 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 999DC70F1DAFD271005C0796 /* WebViewController.m */; };
 		999DC7121DAFD7BF005C0796 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999DC7111DAFD7BF005C0796 /* WebKit.framework */; };
 		999DC7141DAFD7C2005C0796 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999DC7131DAFD7C2005C0796 /* SafariServices.framework */; };
@@ -51,10 +53,13 @@
 		37E2C9E818B4DF7D00D5D823 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37E2C9E918B4DF7D00D5D823 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		37E2C9EB18B4DF7D00D5D823 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DF5941520147B150080D033 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5457651A2013EDD8001EA129 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		5457651B2013EDD8001EA129 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
 		5457651C2013EDD8001EA129 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		5457652020142A00001EA129 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		90EB3CD28AF27DD56639080B /* Pods-Simple Track Playback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Track Playback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Track Playback/Pods-Simple Track Playback.debug.xcconfig"; sourceTree = "<group>"; };
+		97B197B549B829BCD32FF777 /* Pods_Simple_Track_Playback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Track_Playback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		999DC70E1DAFD271005C0796 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		999DC70F1DAFD271005C0796 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		999DC7111DAFD7BF005C0796 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -65,6 +70,7 @@
 		CECF6ACB1A1B7EFB000A29BD /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		DD3274FD1A26C53F00957EF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DD76375A1A2007F100AE0BDC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FC36D76796B2D20EEDE12FE9 /* Pods-Simple Track Playback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Track Playback.release.xcconfig"; path = "Pods/Target Support Files/Pods-Simple Track Playback/Pods-Simple Track Playback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				37E2C9D318B4DF7D00D5D823 /* CoreGraphics.framework in Frameworks */,
 				37E2C9D518B4DF7D00D5D823 /* UIKit.framework in Frameworks */,
 				37E2C9D118B4DF7D00D5D823 /* Foundation.framework in Frameworks */,
+				79BFF47F3D80BE87220136EA /* Pods_Simple_Track_Playback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +104,7 @@
 				37E2C9D618B4DF7D00D5D823 /* Simple Track Playback */,
 				37E2C9CF18B4DF7D00D5D823 /* Frameworks */,
 				37E2C9CE18B4DF7D00D5D823 /* Products */,
+				79EF85CE5EE77DAD6DEAE6C4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +135,7 @@
 				37E2C9D018B4DF7D00D5D823 /* Foundation.framework */,
 				37E2C9D218B4DF7D00D5D823 /* CoreGraphics.framework */,
 				37E2C9D418B4DF7D00D5D823 /* UIKit.framework */,
+				97B197B549B829BCD32FF777 /* Pods_Simple_Track_Playback.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +143,7 @@
 		37E2C9D618B4DF7D00D5D823 /* Simple Track Playback */ = {
 			isa = PBXGroup;
 			children = (
+				4DF5941520147B150080D033 /* GoogleService-Info.plist */,
 				CECF6ACB1A1B7EFB000A29BD /* Config.h */,
 				37E2C9DF18B4DF7D00D5D823 /* AppDelegate.h */,
 				37E2C9E018B4DF7D00D5D823 /* AppDelegate.m */,
@@ -162,6 +172,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		79EF85CE5EE77DAD6DEAE6C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90EB3CD28AF27DD56639080B /* Pods-Simple Track Playback.debug.xcconfig */,
+				FC36D76796B2D20EEDE12FE9 /* Pods-Simple Track Playback.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37E2CA0218B4DF7D00D5D823 /* Build configuration list for PBXNativeTarget "Simple Track Playback" */;
 			buildPhases = (
+				5B855AEA0E93A8A5B46DF9CF /* [CP] Check Pods Manifest.lock */,
 				37E2C9C918B4DF7D00D5D823 /* Sources */,
 				37E2C9CA18B4DF7D00D5D823 /* Frameworks */,
 				37E2C9CB18B4DF7D00D5D823 /* Resources */,
+				744252694F39D1521A1DD757 /* [CP] Embed Pods Frameworks */,
+				CFA25EFAE0B8B8FE6E3979CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,12 +244,69 @@
 			files = (
 				37E2C9EC18B4DF7D00D5D823 /* Images.xcassets in Resources */,
 				CE4A60C91A9CBF9600DDA394 /* backdrop.png in Resources */,
+				4DF5941620147B150080D033 /* GoogleService-Info.plist in Resources */,
 				37E2C9E418B4DF7D00D5D823 /* Main_iPhone.storyboard in Resources */,
 				37E2C9DB18B4DF7D00D5D823 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B855AEA0E93A8A5B46DF9CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simple Track Playback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		744252694F39D1521A1DD757 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Simple Track Playback/Pods-Simple Track Playback-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Track Playback/Pods-Simple Track Playback-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA25EFAE0B8B8FE6E3979CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Simple Track Playback/Pods-Simple Track Playback-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37E2C9C918B4DF7D00D5D823 /* Sources */ = {
@@ -361,23 +440,41 @@
 		};
 		37E2CA0318B4DF7D00D5D823 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EB3CD28AF27DD56639080B /* Pods-Simple Track Playback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VE86KHY5LU;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					../..,
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+				);
 				INFOPLIST_FILE = "Simple Track Playback/Simple Track Playback-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"${inherited}",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbhacksiv.spotify;
 				PRODUCT_NAME = "Simple Track Playback";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"SYSTEM_FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,23 +482,40 @@
 		};
 		37E2CA0418B4DF7D00D5D823 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC36D76796B2D20EEDE12FE9 /* Pods-Simple Track Playback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VE86KHY5LU;
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					../..,
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+				);
 				INFOPLIST_FILE = "Simple Track Playback/Simple Track Playback-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"${inherited}",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbhacksiv.spotify;
 				PRODUCT_NAME = "Simple Track Playback";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"SYSTEM_FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
